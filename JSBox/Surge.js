@@ -167,9 +167,9 @@ ${config.Proxy}
 ${config.extProxy}
 
 [Proxy Group]
-🍃 Proxy = select, 🏃 Auto, 🚀 Direct,${ProxyList}
+🍃 Proxy = select, 🏃 Auto
 🍂 Domestic = select, 🚀 Direct, 🍃 Proxy
-🍎 Only = select, 🚀 Direct,${ProxyList}
+🍎 Only = select, 🚀 Direct, 🍃 Proxy
 ☁️ Others =  select,🚀 Direct,🍃 Proxy
 🏃 Auto = url-test,${AutoList},url = http://www.gstatic.com/generate_204, interval = 1200
 # my extProxyGroup
