@@ -107,7 +107,4 @@ DOMAIN-SUFFIX,spoti.fi
 DOMAIN-SUFFIX,viu.tv
 
 // Youtube
-DOMAIN-KEYWORD,youtube
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,gvt2.com
-DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtubei.googleapis.com
