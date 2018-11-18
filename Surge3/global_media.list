@@ -94,6 +94,9 @@ DOMAIN-SUFFIX,nflximg.net
 DOMAIN-SUFFIX,nflxso.net
 DOMAIN-SUFFIX,nflxvideo.net
 
+// Pandora
+DOMAIN-SUFFIX,pandora.com
+
 // SoundCloud
 USER-AGENT,SoundCloud*
 
