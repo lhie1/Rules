@@ -16,7 +16,7 @@ USER-AGENT,locationd*
 USER-AGENT,Maps*
 USER-AGENT,TestFlight*
 DOMAIN-SUFFIX,apple.com
-DOMAIN,api.smoot.apple.cnA
+DOMAIN,api.smoot.apple.cn
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,me.com
