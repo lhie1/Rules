@@ -3,4 +3,4 @@ socks-port: 8889
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: 127.0.0.1:6170
+external-controller: 0.0.0.0:6170
