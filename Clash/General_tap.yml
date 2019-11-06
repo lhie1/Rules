@@ -10,18 +10,10 @@ dns:
   listen: 0.0.0.0:53
   enhanced-mode: fake-ip
   nameserver:
-  # DNS From rixCloud
-  - tcp://116.62.218.19:53
-  - tcp://139.196.72.143:53
-  # DNS From USTC
-  - tcp://202.141.162.123:53
-  - tcp://202.141.176.93:53
-  - tcp://202.38.93.94:53
-  # DNS From Hi!XNS
-  - tcp://40.73.101.101:53
-  # DNS From OpenDNS
-  - tcp://208.67.222.222:5353
+     - 1.2.4.8
+     - 114.114.114.114
+     - 223.5.5.5
   fallback:
-  - tcp://1.0.0.1:53
-  - tcp://208.67.220.220:5353
-  - tls://1.0.0.1:853
+     - tls://dns.rubyfish.cn:853
+     - tls://1.0.0.1:853
+     - tls://dns.google:853
