@@ -1,5 +1,7 @@
 # > Client
 PROCESS-NAME,ss-local
+PROCESS-NAME,Microsoft AutoUpdate
+PROCESS-NAME,Microsoft Update Assistant
 
 # > UA
 USER-AGENT,hide*
@@ -18,6 +20,17 @@ DOMAIN-KEYWORD,beplay
 DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,battlenet.com
 DOMAIN-SUFFIX,blizzard.com
+
+# > Microsoft
+USER-AGENT,OneDrive*
+DOMAIN-KEYWORD,microsoft
+DOMAIN-SUFFIX,hotmail.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,live.net
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,office.net
+DOMAIN-SUFFIX,outlook.com
 
 # > Prior
 DOMAIN,client.amplifi.com
@@ -174,6 +187,7 @@ DOMAIN-SUFFIX,mai.tn
 DOMAIN-SUFFIX,meizu.com
 DOMAIN-SUFFIX,mi.com
 DOMAIN-SUFFIX,miaopai.com
+DOMAIN-SUFFIX,microsofttranslator.com
 DOMAIN-SUFFIX,miui.com
 DOMAIN-SUFFIX,miwifi.com
 DOMAIN-SUFFIX,mob.com
@@ -188,6 +202,7 @@ DOMAIN-SUFFIX,netease.com
 DOMAIN-SUFFIX,nfoservers.com
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,nuomi.com
+DOMAIN-SUFFIX,onedrive.com
 DOMAIN-SUFFIX,ourbits.club
 DOMAIN-SUFFIX,ourdvs.com
 DOMAIN-SUFFIX,passthepopcorn.me
