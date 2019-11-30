@@ -41,6 +41,15 @@ DOMAIN-SUFFIX,bbci.co.uk
 USER-AGENT,TwDramas*
 DOMAIN-SUFFIX,chocotv.com.tw
 
+# > Disney Plus
+USER-AGENT,Disney*
+DOMAIN,cdn.registerdisney.go.com
+DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-SUFFIX,disney-plus.net
+DOMAIN-SUFFIX,dssott.com
+DOMAIN-SUFFIX,bamgrid.com
+DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
+
 # > Now E
 USER-AGENT,PCCW*
 DOMAIN-KEYWORD,nowe

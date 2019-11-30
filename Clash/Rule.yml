@@ -36,6 +36,14 @@ Rule:
 # > CHOCO TV
 - DOMAIN-SUFFIX,chocotv.com.tw,GlobalTV
 
+# > Disney Plus
+- DOMAIN,cdn.registerdisney.go.com,GlobalTV
+- DOMAIN-SUFFIX,disneyplus.com,GlobalTV
+- DOMAIN-SUFFIX,disney-plus.net,GlobalTV
+- DOMAIN-SUFFIX,dssott.com,GlobalTV
+- DOMAIN-SUFFIX,bamgrid.com,GlobalTV
+- DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,GlobalTV
+
 # > Epicgames
 - DOMAIN-KEYWORD,epicgames,GlobalTV
 - DOMAIN-SUFFIX,helpshift.com,GlobalTV
