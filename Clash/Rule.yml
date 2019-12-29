@@ -147,7 +147,7 @@ Rule:
 # > Tencent Video
 - DOMAIN-SUFFIX,vv.video.qq.com,AsianTV
 
-# > 抗 DNS 污染 
+# > 抗 DNS 污染
 - DOMAIN-KEYWORD,amazon,Proxy
 - DOMAIN-KEYWORD,google,Proxy
 - DOMAIN-KEYWORD,gmail,Proxy
@@ -575,6 +575,8 @@ Rule:
 - IP-CIDR,109.239.140.0/24,Proxy
 - IP-CIDR,149.154.160.0/20,Proxy
 - IP-CIDR,149.154.164.0/22,Proxy
+
+- DOMAIN-SUFFIX,dler.cloud,DIRECT
 
 # > LAN
 - DOMAIN-SUFFIX,local,DIRECT
