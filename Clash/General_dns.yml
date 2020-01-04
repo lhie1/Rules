@@ -7,7 +7,7 @@ external-controller: 127.0.0.1:9090
 dns:
   enable: true
   ipv6: false
-  listen: 127.0.0.1:53
+  listen: 127.0.0.1:5450
   enhanced-mode: fake-ip
   nameserver:
      - 1.2.4.8
