@@ -1,13 +1,13 @@
 on: push
 name: Auto Sync
 jobs:
-  run:
+  gitee:
     name: Run
     runs-on: ubuntu-latest
     steps:
     - name: Checkout source codes
       uses: actions/checkout@v1
-    - name: Mirror Github to Gitee with white list
+    - name: Mirror Github to Gitee
       uses: lhie1/Rules@master
       with:
         src: github/lhie1
@@ -17,3 +17,15 @@ jobs:
         white_list: 'Rules'
         force_update: true
         debug: false
+  gitlab:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout'
+        uses: actions/checkout@v1
+      - name: 'Mirror Github to GitLab'
+        uses: pixta-dev/repository-mirroring-action@v1
+        with:
+          target_repo_url:
+            git@git.dler.io:root/Rules.git
+          ssh_private_key:
+            ${{ secrets.GITLAB_KEY }}
