@@ -20,6 +20,9 @@ payload:
   - DOMAIN-SUFFIX,ls.apple.com
   - DOMAIN-SUFFIX,mzstatic.com
 
+  # > Epic
+  - DOMAIN-KEYWORD,epicgames
+
   # > Google
   - DOMAIN-KEYWORD,mtalk.google.com
   - DOMAIN,safebrowsing.googleapis.com
