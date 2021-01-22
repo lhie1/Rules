@@ -1,6 +1,6 @@
 #!name=TikTok Unlock
 #!desc=Remove TikTok's regional restrictions.
-#!system=ios
+#!system=iosf
 
 [URL Rewrite]
 (?<=_region=)TW(?=&) JP 307
