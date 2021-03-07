@@ -432,6 +432,12 @@ rule-providers:
     url: 'https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Apple.yaml'
     path: ./Rules/Apple
     interval: 86400
+  Scholar:
+    type: http
+    behavior: classical
+    url: 'https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Scholar.yaml'
+    path: ./Rules/Scholar
+    interval: 86400
   Domestic IPs:
     type: http
     behavior: ipcidr
